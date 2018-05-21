@@ -18,6 +18,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetDetailComponent } from './widgets/widget-detail/widget-detail.component';
 import { WidgetsListComponent } from './widgets/widgets-list/widgets-list.component';
 import { ItemsSearchComponent } from './items/items-search/items-search.component';
+import { LoginComponent } from './login/login.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 
 @NgModule({
@@ -27,11 +28,12 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
     ItemsComponent,
     ItemsListComponent,
     ItemDetailComponent,
+    ItemsSearchComponent,
     WidgetsComponent,
     WidgetDetailComponent,
     WidgetsListComponent,
-    ItemsSearchComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserAnimationsModule,
